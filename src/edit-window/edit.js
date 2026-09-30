@@ -7,7 +7,7 @@ const titleError = document.getElementById('title-error');
 const btnCancel  = document.getElementById('btn-cancel');
 
 
-let currentTaskId = null;   // add this at the top
+let currentTaskId = null;   
 
 // ── Pre-fill the form with the existing task data ─────────────────────────────
 window.taskAPI.onLoadTask((task) => {
